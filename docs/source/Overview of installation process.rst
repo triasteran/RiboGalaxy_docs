@@ -16,7 +16,7 @@ The Galaxy machine should have a domain name, because we are going to use SSL ce
 
 Basic packages for clean VM
 ----------------
-Once we have a clean machine where we host RiboGalaxy server, we need to add a `"sudo user"` and install some basic packages. 
+Once we have a clean machine where we host RiboGalaxy server, we need to add a `"sudo user"` and install some basic packages including ansible and python. 
 
 .. code-block:: console
 
