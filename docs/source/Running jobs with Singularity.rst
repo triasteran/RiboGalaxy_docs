@@ -8,8 +8,6 @@ Basic setup
 
 This setup is needed to run jobs and fetch dependencies using Singularity. A lot of containers that are used in bioinformatics have been produced by the 
 BioContainers community and we are going to leverage that. In case if some tool was written using Docker package, singularity is able to handle that too. 
-Of note: some RiboGalaxy tools have dependencies that are supported by BioContainers, so in that case their destination would be local (or slurm) with 
-no singularity enabled, in this case dependencies will be resolved via conda and toolshed packages. Using singularity is current Galaxy best practice. 
 
 Follow this tutorial: `Galaxy and Singularity <https://training.galaxyproject.org/training-material/topics/admin/tutorials/singularity/tutorial.html>`_
 
@@ -47,6 +45,6 @@ Solution:
 .. code-block:: console
   
    $ nano hosts
-   $ ansible_sudo_pass=pswd 
+   $ # add this line to the file (pswd = password for admin user): ansible_sudo_pass=pswd 
 
 
