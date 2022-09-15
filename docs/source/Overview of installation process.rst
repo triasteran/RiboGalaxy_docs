@@ -6,7 +6,7 @@ Overview of installation process
 Hardware
 ------------
 
-We will need 1 clean VM (Virtual Machines), we call it Galaxy machine. We used the `CloudCIX platform <<https://www.cloudcix.com/>`_. It is a simplest setup, so everything will be carried out and stored on one machine - web server, database and jobs running. This setup was chosen due to simplicity of configuration, debugging and availability of resources.  
+We will need 1 clean VM (Virtual Machines), we call it Galaxy machine. We used the `CloudCIX platform <https://www.cloudcix.com/>`_. It is a simplest setup, so everything will be carried out and stored on one machine - web server, database and jobs running. This setup was chosen due to simplicity of configuration, debugging and availability of resources.  
 
 This is not the only possible setup, e.g. cluster can be used for running jobs, or one or multiple ‘pulsar’ machines (‘pulsar’ is a separate remote machine used solely for running jobs). 
 
