@@ -20,9 +20,9 @@ Once we have a clean machine where we host RiboGalaxy server, we need to add a `
 
 .. code-block:: console
 
-   $ sudo adduser user 
-   $ compgen -u # check that user user is made 
-   $ sudo usermod -aG sudo alla 
+   $ sudo adduser admin 
+   $ compgen -u # check that user admin is made 
+   $ sudo usermod -aG sudo admin 
    $ Exit
    
    $ sudo apt-get update && sudo apt-get upgrade 
@@ -39,10 +39,19 @@ Once we have a clean machine where we host RiboGalaxy server, we need to add a `
    
 Then we need to check that we have Ansible >= 2.7 and Python > 3.6. 
 
+.. code-block:: console
+
+   $ python
+   $ ansible
 
 `"test param"``
 
 Main components of infrastructure
 ----------------
 
-database, server, ...
+* Clone (or Download) Galaxy
+* Managing Configuration
+* Fetching Dependencies
+* Managing Mutable Setup
+* Managing the Database
+* Building the Client
