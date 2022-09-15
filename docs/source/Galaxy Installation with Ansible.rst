@@ -1,7 +1,10 @@
 Galaxy Installation with Ansible
-===
+=====
 
 .. _Base:
+
+Basic components and useful commands
+------------
 
 The first step is installation of the Galaxy web server, client and database. All the steps are described in this tutorial: 
 `Ansible-Galaxy <https://training.galaxyproject.org/archive/2021-08-01/topics/admin/tutorials/ansible-galaxy/tutorial.html?utm_source=smorgasbord&utm_medium=website&utm_campaign=gcc2021>`_. Galaxy is configured that way that whenever you start your VM, it automatically starts a galaxy server. 
