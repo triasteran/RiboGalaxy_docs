@@ -1,5 +1,5 @@
-Welcome to RiboGalaxy's 'how-to-build' documentation.
 
+Welcome to RiboGalaxy's 'how-to-build' documentation.
 ===================================
 
 **RiboGalaxy**, a Galaxy-based platform for processing ribo-seq data from raw reads to genomic and transcriptomic alignments, is one of three Riboseq.org (https://riboseq.org/) resources. RiboGalaxy facilitates reproducible data analysis without any sophisticated environment setups for users and enables more accessible scientific discoveries. 
