@@ -1,9 +1,6 @@
-Template for the Read the Docs tutorial
+How to build RiboGalaxy using Ansible roles
 =======================================
-
-This GitHub template includes fictional Python library
-with some basic Sphinx docs.
 
 Read the tutorial here:
 
-https://docs.readthedocs.io/en/stable/tutorial/
+https://ribogalaxy-docs.readthedocs.io/en/latest/Overview%20of%20installation%20process.html#hardware
