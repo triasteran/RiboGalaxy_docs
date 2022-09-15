@@ -35,6 +35,7 @@ Once we have a clean machine where we host RiboGalaxy server, we need to add a `
    $ sudo apt-add-repository --yes --update ppa:ansible/ansible
    $ sudo apt install ansible
    $ sudo apt install tree  
+   $ sudo apt-get install -y acl # fix issue with permissions and postgresql
    
    
 Then we need to check that we have Ansible >= 2.7 and Python > 3.6. 
