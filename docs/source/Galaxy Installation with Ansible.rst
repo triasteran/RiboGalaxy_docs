@@ -10,6 +10,7 @@ The first step is installation of the Galaxy web server, client and database. Al
 `Ansible-Galaxy <https://training.galaxyproject.org/archive/2021-08-01/topics/admin/tutorials/ansible-galaxy/tutorial.html?utm_source=smorgasbord&utm_medium=website&utm_campaign=gcc2021>`_. Galaxy is configured that way that whenever you start your VM, it automatically starts a galaxy server. 
 
 Some key features of installation: 
+
 * Current commit that is used in RiboGalaxy version is 'release_21.09' (to avoid issues with installing library 'future')
 * All of the code, configuration, tools, and mutable-data (like caches, location files, etc.) folders will live by default beneath galaxy_root, which is in /mnt/data. 
 * auto-magic restart of Galaxy is implemented via systemd. 
