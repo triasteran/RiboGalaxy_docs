@@ -1,4 +1,4 @@
-Welcome to RiboGalaxy's documentation.
+Welcome to RiboGalaxy's 'how-to-build' documentation.
 
 ===================================
 
